@@ -68,7 +68,7 @@ void loop() {
   digitalWrite(pinGrupoC_2, HIGH);
   digitalWrite(pinGrupoD_1, HIGH);
 
-}
+
 
   // FASE 3
   digitalWrite(pinGrupoA_1, HIGH);
@@ -83,4 +83,12 @@ void loop() {
   digitalWrite(pinGrupoD_3, HIGH);
   
   delay(5000);
+
+  // FASE 4 (Transición final)
+  digitalWrite(pinGrupoC_2, LOW);
+  digitalWrite(pinGrupoD_2, HIGH);
+  
+  delay(2000);
+}
+
   
