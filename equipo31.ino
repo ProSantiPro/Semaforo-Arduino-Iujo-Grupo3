@@ -62,5 +62,10 @@ void loop() {
   digitalWrite(pinGrupoA_3, LOW);
   digitalWrite(pinGrupoA_2, HIGH);
   digitalWrite(pinGrupoB_2, LOW);
+  digitalWrite(pinGrupoB_1, HIGH);
+  digitalWrite(pinGrupoC_1, LOW);
+  digitalWrite(pinGrupoC_2, HIGH);
+  digitalWrite(pinGrupoD_1, HIGH);
+  
 
 }
