@@ -58,4 +58,9 @@ void loop() {
   
   delay(tiempoVerde);
 
+  // FASE 2 (Transición)
+  digitalWrite(pinGrupoA_3, LOW);
+  digitalWrite(pinGrupoA_2, HIGH);
+  digitalWrite(pinGrupoB_2, LOW);
+
 }
