@@ -69,3 +69,18 @@ void loop() {
   digitalWrite(pinGrupoD_1, HIGH);
 
 }
+
+  // FASE 3
+  digitalWrite(pinGrupoA_1, HIGH);
+  digitalWrite(pinGrupoA_2, LOW);
+  digitalWrite(pinGrupoA_3, LOW);
+  digitalWrite(pinGrupoB_1, HIGH);
+  digitalWrite(pinGrupoB_2, LOW);
+  digitalWrite(pinGrupoC_1, LOW);
+  digitalWrite(pinGrupoC_2, HIGH);
+  digitalWrite(pinGrupoD_1, LOW);
+  digitalWrite(pinGrupoD_2, LOW);
+  digitalWrite(pinGrupoD_3, HIGH);
+  
+  delay(5000);
+  
